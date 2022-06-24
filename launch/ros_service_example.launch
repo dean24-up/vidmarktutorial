@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="vidmarktutorial" type="service_server_node.py" name="service_server_node" output="screen"></node>
+	<node pkg="vidmarktutorial" type="service_client_node.py" name="service_client_node" output="screen"></node>
+</launch>
